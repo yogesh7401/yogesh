@@ -1,6 +1,6 @@
 <template>
     <div class="pb-5 m-auto">
-        <p class="text-center p-2 bg-green-700 dark:bg-gray-900 dark:text-white text-green-100 w-32 rounded-lg mx-auto">Born on 2021</p>
+        <p class="text-center p-2 bg-green-700 dark:bg-gray-900 dark:text-white text-green-100 w-32 rounded-lg mx-auto">Born on 2000</p>
         <div v-for="e,i in Timeline" :key="e.date">
             <div class="grid grid-cols-2">
                 <div v-if="(i+1) % 2 === 1" class="ml-auto pr-6 flex relative h-28 pt-3 border-r-2 border-green-100" :class=" i === 0 ? `pl-6 pt-8` : `pl-6 pt-3`">
