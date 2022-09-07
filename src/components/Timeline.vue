@@ -28,7 +28,7 @@
                 </div>
             </div>
         </div>
-        <p class="text-center bg-green-700 dark:bg-gray-900 p-2 text-green-100 w-32 rounded-lg mx-auto">Loading <span class="animate-pulse">. . .</span></p>
+        <p class="text-center dark:text-white bg-green-700 dark:bg-gray-900 p-2 text-green-100 w-32 rounded-lg mx-auto">Learning <span class="animate-pulse">. . .</span></p>
     </div>
 </template>
 
@@ -54,6 +54,10 @@ export default {
                 {
                     date : 'March 2021',
                     desc : 'Intern at KS Smart Solutions'
+                },
+                {
+                    date : 'August 2022',
+                    desc : 'Assistant System Engineer at TCS'
                 }
             ] 
         }

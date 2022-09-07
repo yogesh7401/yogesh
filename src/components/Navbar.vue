@@ -1,6 +1,6 @@
 <template>
 <div class="absolute top-0 left-0 right-0 z-50">
-  <nav class="flex flex-wrap bg-green-50 dark:bg-black items-center justify-between py-3 mb-3">
+  <nav class="flex flex-wrap bg-green-50 dark:bg-dark items-center justify-between py-3 mb-3">
     <div class="md:container w-screen md:px-0 mx-auto flex flex-wrap items-center justify-between">
       <div class="w-full flex justify-between lg:w-auto  px-4 lg:static lg:block lg:justify-start">
         <router-link to='/' class="border-0">
