@@ -1,12 +1,12 @@
 <template>
-    <div class="bg-green-200 dark:bg-card w-full h-full p-5 rounded-md rounded-tl-3xl rounded-br-xl lg:my-0 my-5 shadow-xl cursor-pointer card">
+    <div class="bg-green-200 dark:bg-card w-full h-full p-8 rounded-md rounded-tl-3xl rounded-br-xl lg:my-0 my-5 shadow-xl cursor-pointer card">
       <div class="flex justify-between flex-wrap">
         <p class="text-green-800 text-lg dark:text-white md:text-2xl">{{ data.name }}</p>
-        <p class="text-sm mt-auto text-green-600 dark:text-gray-400 ml-auto">{{ moment(data.pushed_at).format("lll") }}</p>
+        <p class="text-sm mt-auto text-green-600 dark:text-gray-400 ml-auto">{{ moment(data.pushed_at).format("MMM Do YYYY") }}</p>
       </div>
       <div class="mt-6 h-28">
         <p :style="{textIndent : '3rem'}" class="text-md text-justify dark:text-gray-400 line-clamp text-green-600" v-if="data.id === 395348959">Github Read Me</p>
-        <p :style="{textIndent : '3rem'}" class="text-md text-justify dark:text-gray-400 line-clamp text-green-600">{{ data.description }}</p>
+        <p :style="{textIndent : '3rem'}" class="text-md text-justify dark:text-gray-400 line-clamp text-green-600">{{ data.description === null ? "Nothing to display" : data.description }}</p>
       </div>
       <div class="text-green-800 dark:text-gray-100 flex flex-wrap justify-between">
         <p class="mt-auto">
