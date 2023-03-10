@@ -1,10 +1,10 @@
 <template>
 <div class="absolute top-0 left-0 right-0 z-50">
-  <nav class="flex flex-wrap bg-green-50 dark:bg-dark items-center justify-between py-3 mb-3">
+  <nav class="flex flex-wrap bg-blue-50 dark:bg-dark items-center justify-between py-3 mb-3">
     <div class="md:container w-screen md:px-0 mx-auto flex flex-wrap items-center justify-between">
       <div class="w-full flex justify-between lg:w-auto  px-4 lg:static lg:block lg:justify-start">
         <router-link to='/' class="border-0">
-          <p class="text-4xl logo text-green-600 dark:text-white border-0">{ Yogesh }</p>
+          <p class="text-4xl logo text-blue-600 dark:text-white border-0">{ Yogesh }</p>
         </router-link>
         <div class="lg:hidden ml-auto mt-2 mr-4" @click="this.changeTheme">
           <svg version="1.0" v-if="this.$store.state.theme === 'dark'" class="ml-auto" xmlns="http://www.w3.org/2000/svg"
@@ -52,10 +52,10 @@
             </g>
             </svg>
             <svg version="1.0" v-else xmlns="http://www.w3.org/2000/svg"
-            width="24" height="24" class="ml-auto" viewBox="0 0 1280.000000 1074.000000"
+            width="24" height="24" class="ml-auto" viewBox="0 0 1280.000000 1074.000000219,"
             preserveAspectRatio="xMidYMid meet">
             <g transform="translate(0.000000,1074.000000) scale(0.100000,-0.100000)"
-            fill="#16A34A" stroke="none">
+            fill="rgb(37, 99, 235)" stroke="none">
             <path d="M7280 10683 c122 -106 456 -448 564 -578 826 -994 1265 -2198 1266
             -3465 0 -1147 -384 -2295 -1075 -3215 -295 -393 -683 -779 -1075 -1073 -800
             -599 -1791 -976 -2760 -1052 -80 -6 -167 -14 -193 -18 l-49 -7 114 -91 c1044
@@ -65,11 +65,11 @@
             </g>
             </svg>
         </div>
-        <button class="text-green-600 cursor-pointer text-xl leading-none px-3 py-1 border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none" type="button" v-on:click="toggleNavbar()">
+        <button class="text-blue-600 cursor-pointer text-xl leading-none px-3 py-1 border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none" type="button" v-on:click="toggleNavbar()">
           <svg viewBox="0 0 100 80" width="30" height="30">
-            <rect :fill='this.$store.state.theme === "dark" ? "white" : "#059669"' width="100" height="10" rx="8"></rect>
-            <rect :fill='this.$store.state.theme === "dark" ? "white" : "#059669"' :x="[showMenu ? '20' : '0']" y="30" width="80" height="10" rx="8"></rect>
-            <rect :fill='this.$store.state.theme === "dark" ? "white" : "#059669"' y="60" width="100" height="10" rx="8"></rect>
+            <rect :fill='this.$store.state.theme === "dark" ? "white" : "rgb(37, 99, 235)"' width="100" height="10" rx="8"></rect>
+            <rect :fill='this.$store.state.theme === "dark" ? "white" : "rgb(37, 99, 235)"' :x="[showMenu ? '20' : '0']" y="30" width="80" height="10" rx="8"></rect>
+            <rect :fill='this.$store.state.theme === "dark" ? "white" : "rgb(37, 99, 235)"' y="60" width="100" height="10" rx="8"></rect>
           </svg>
         </button>
       </div>
@@ -150,7 +150,7 @@
               width="24" height="24" class="ml-auto" viewBox="0 0 1280.000000 1074.000000"
               preserveAspectRatio="xMidYMid meet">
               <g transform="translate(0.000000,1074.000000) scale(0.100000,-0.100000)"
-              fill="#000000" stroke="none">
+              fill="rgb(37, 99, 235)" stroke="none">
               <path d="M7280 10683 c122 -106 456 -448 564 -578 826 -994 1265 -2198 1266
               -3465 0 -1147 -384 -2295 -1075 -3215 -295 -393 -683 -779 -1075 -1073 -800
               -599 -1791 -976 -2760 -1052 -80 -6 -167 -14 -193 -18 l-49 -7 114 -91 c1044
@@ -176,7 +176,7 @@ export default {
     return {
       Yogesh : Yogesh,
       showMenu: false,
-      menuClass : "mx-3 py-2 flex items-center text-xs text-lg font-bold leading-snug dark:text-white text-green-600 float-right mt-3 hover:opacity-75",
+      menuClass : "mx-3 py-2 flex items-center text-xs text-lg font-bold leading-snug dark:text-white text-blue-600 float-right mt-3 hover:opacity-75",
       route : useRoute(),
       borderColor : "",
       color : localStorage.getItem("theme")

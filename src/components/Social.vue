@@ -3,7 +3,7 @@
         <a href="https://github.com/yogesh7401" target="_blank"> 
             <svg version="1.1" class="w-8"  id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" xml:space="preserve">
                 <g>
-                    <path :fill='this.$store.state.theme === "dark" ? "white" : "#059669"' d="M256,0C114.6,0,0,114.6,0,256s114.6,256,256,256s256-114.6,256-256S397.4,0,256,0z M477.9,256L477.9,256
+                    <path :fill='this.$store.state.theme === "dark" ? "white" : "rgb(37, 99, 235)"' d="M256,0C114.6,0,0,114.6,0,256s114.6,256,256,256s256-114.6,256-256S397.4,0,256,0z M477.9,256L477.9,256
                         c0,101.4-67.9,186.9-160.8,213.4l-1.6,0.4v-83c0-19.7-5.3-34.1-15.8-43.2c11.7-1.2,22.4-3.1,32.7-5.8l-1.5,0.3
                         c10.9-3,20.4-7.1,29.2-12.2l-0.6,0.3c9.7-5.3,17.8-12.1,24.6-20.1l0.1-0.1c6.6-8,12-18.7,16.1-32c4.2-13.3,6.2-28.6,6.2-45.8
                         c0-24.6-8-45.5-24.1-62.7c7.5-18.5,6.7-39.2-2.4-62.1c-5.7-1.8-13.9-0.7-24.7,3.3c-10.8,4-20,8.5-28.7,13.8l0.7-0.4l-11.6,7.3
@@ -23,7 +23,7 @@
             <svg version="1.1" fill="#34D399" class="w-8 ml-3" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
                 <g>
-                    <path :fill='this.$store.state.theme === "dark" ? "white" : "#059669"' d="M256,0c71.1,0,131.6,24.9,181.3,74.7S512,184.9,512,256c0,70.4-24.9,130.7-74.7,180.8S327.1,512,256,512
+                    <path :fill='this.$store.state.theme === "dark" ? "white" : "rgb(37, 99, 235)"' d="M256,0c71.1,0,131.6,24.9,181.3,74.7S512,184.9,512,256c0,70.4-24.9,130.7-74.7,180.8S327.1,512,256,512
                         s-131.6-25.1-181.3-75.2S0,326.4,0,256c0-71.1,24.9-131.6,74.7-181.3S184.9,0,256,0 M316.8,176v-41.6h-38.4
                         c-15.6,0-28.8,5.9-39.5,17.6s-16,26.1-16,43.2v23.5h-40.5v39.5h40.5v118.4h45.9V258.1h48v-39.5h-48v-27.7c0-10,3.2-14.9,9.6-14.9
                         H316.8"/>
@@ -33,7 +33,7 @@
         <a href="mailto:yogeshwaran7401@gmail.com" target="_blank">
             <svg version="1.1" class="w-8 ml-3" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
                 <g>
-                    <path :fill='this.$store.state.theme === "dark" ? "white" : "#059669"' d="M256,0C114.6,0,0,114.6,0,256c0,141.4,114.6,256,256,256c141.4,0,256-114.6,256-256C512,114.6,397.4,0,256,0z M276.9,319.3
+                    <path :fill='this.$store.state.theme === "dark" ? "white" : "rgb(37, 99, 235)"' d="M256,0C114.6,0,0,114.6,0,256c0,141.4,114.6,256,256,256c141.4,0,256-114.6,256-256C512,114.6,397.4,0,256,0z M276.9,319.3
                         c-25.1,35.3-75.5,45.6-114.8,30.5c-39.4-15-67.4-56.7-64.1-99.1c0.9-51.9,48.7-97.5,100.6-95.7c24.9-1.1,48.3,9.7,67.4,24.9
                         c-8.2,9.3-16.6,18.2-25.6,26.5c-22.9-15.8-55.5-20.3-78.5-2.1c-32.8,22.7-34.3,76.2-2.7,100.6c30.7,27.8,88.7,14,97.2-28.6
                         c-19.2-0.3-38.5,0-57.7-0.6c-0.1-11.5-0.1-22.9-0.1-34.4c32.1-0.1,64.3-0.2,96.5,0.1C297,268.3,293.4,297,276.9,319.3z M415.4,270
@@ -45,13 +45,13 @@
         <a href="https://www.instagram.com/yogesh7401_/" target="_blank">
             <svg version="1.1" class="w-8 ml-3" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
                 <g id="XMLID_1_">
-                    <circle id="XMLID_3_" class="st0" :fill='this.$store.state.theme === "dark" ? "white" : "#059669"' cx="254.1" cy="257.9" r="45.6"/>
-                    <path :fill='this.$store.state.theme === "dark" ? "white" : "#059669"' id="XMLID_7_" class="st0" d="M310.9,146.2H196.4c-16.8,0-31.7,5.6-41,14.9c-9.3,9.3-14.9,24.2-14.9,41v114.5
+                    <circle id="XMLID_3_" class="st0" :fill='this.$store.state.theme === "dark" ? "white" : "rgb(37, 99, 235)"' cx="254.1" cy="257.9" r="45.6"/>
+                    <path :fill='this.$store.state.theme === "dark" ? "white" : "rgb(37, 99, 235)"' id="XMLID_7_" class="st0" d="M310.9,146.2H196.4c-16.8,0-31.7,5.6-41,14.9c-9.3,9.3-14.9,24.2-14.9,41v114.5
                         c0,16.8,5.6,31.7,15.8,41.9c10.2,9.3,24.2,14.9,41,14.9h113.6c16.8,0,31.7-5.6,41-14.9c10.2-9.3,15.8-24.2,15.8-41V202
                         c0-16.8-5.6-29.8-14.9-41C342.6,150.8,328.6,146.2,310.9,146.2z M254.1,328.6c-39.1,0-70.7-32.6-70.7-70.7
                         c0-39.1,32.6-70.7,70.7-70.7s71.7,31.7,71.7,70.7S293.2,328.6,254.1,328.6z M327.7,201.1c-9.3,0-16.8-7.4-16.8-16.8
                         s7.4-16.8,16.8-16.8s16.8,7.4,16.8,16.8S337,201.1,327.7,201.1z"/>
-                    <path :fill='this.$store.state.theme === "dark" ? "white" : "#059669"' id="XMLID_10_" class="st0" d="M256,0C114.5,0,0,114.5,0,256s114.5,256,256,256s256-114.5,256-256C512.9,114.5,397.5,0,256,0z
+                    <path :fill='this.$store.state.theme === "dark" ? "white" : "rgb(37, 99, 235)"' id="XMLID_10_" class="st0" d="M256,0C114.5,0,0,114.5,0,256s114.5,256,256,256s256-114.5,256-256C512.9,114.5,397.5,0,256,0z
                         M391.9,316.5c0,24.2-8.4,44.7-23.3,59.6c-14.9,14.9-35.4,21.4-58.6,21.4H197.3c-23.3,0-43.8-7.4-58.6-21.4
                         c-15.8-14.9-23.3-35.4-23.3-59.6V202c0-47.5,32.6-81,81-81h115.4c24.2,0,43.8,8.4,58.6,23.3s21.4,34.4,21.4,58.6V316.5z"/>
                 </g>
@@ -60,7 +60,7 @@
         <a href="https://www.linkedin.com/in/yogesh-waran-ab08ab195/" target="_blank">
             <svg version="1.1" class="w-8 ml-3" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
             <g id="XMLID_1_">
-                <circle :fill='this.$store.state.theme === "dark" ? "white" : "#059669"' id="XMLID_3_" class="st0" cx="256" cy="256" r="256"/>
+                <circle :fill='this.$store.state.theme === "dark" ? "white" : "rgb(37, 99, 235)"' id="XMLID_3_" class="st0" cx="256" cy="256" r="256"/>
                 <path :fill='this.$store.state.theme === "dark" ? "black" : "white"' id="XMLID_7_" class="st1" d="M187.1,374.2V217.8h-48.4v156.4H187.1z M187.1,162.9c0-14-9.3-24.2-25.1-24.2
                     c-14.9,0-25.1,10.2-25.1,24.2s9.3,24.2,24.2,24.2l0,0C176.9,187.1,187.1,175.9,187.1,162.9z M265.3,374.2v-89.4c0-4.7,0-9.3,1.9-13
                     c3.7-9.3,12.1-19.5,27-19.5c19.5,0,30.7,11.2,30.7,32.6v89.4h48.4V283c0-49.3-26.1-71.7-60.5-71.7c-28.9,0-41,15.8-48.4,27v-20.5
