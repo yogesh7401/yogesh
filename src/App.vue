@@ -1,7 +1,7 @@
 <template>
   <div :class="this.$store.state.theme">
     <div class="min-h-screen">
-      <Template />
+      <Template></Template>
     </div>
   </div>
 </template>
