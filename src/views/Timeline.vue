@@ -1,5 +1,5 @@
 <template>
-    <div class="pt-28 xl:min-h-screen xl:flex">
+    <div class="pt-28 min-h-screen xl:flex">
     <timeline /> 
     </div>
 </template>

@@ -1,6 +1,6 @@
 <template>
   <div :class="this.$store.state.theme">
-    <div class="bg-blue-50 dark:bg-dark min-h-screen">
+    <div class="min-h-screen">
       <Template />
     </div>
   </div>
