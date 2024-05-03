@@ -7,9 +7,9 @@
             <p class="text-gray-500 mb-2">Hello!</p>
             <div class="text-2xl md:text-4xl md:text-left">
                 <p> I'm <span class="font-bold text-yellow-500">Yogeshwaran</span> </p>
-                <p class="md:mt-2">an fullstack developer</p>
+                <p class="md:mt-1">an fullstack developer</p>
             </div>
-            <p class="mt-5 inset-1 text-gray-600 text-md md:text-lg lg:text-xl font-serif md:text-justify">
+            <p class="mt-3 inset-1 text-gray-600 text-md md:text-lg font-serif md:text-justify">
                 Intrested in working on Frontend, Backend, API's, Databases and currently learning new things,
                 I enjoy playing cricket🏏 and watching anime is my recent hobby.
             </p>

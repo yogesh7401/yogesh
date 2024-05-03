@@ -1,12 +1,12 @@
 <template>
     <div class="h-full w-full bg-blue-900 rounded-md bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-10 border border-gray-100 p-5 md:p-8 rounded-tl-3xl rounded-br-xl lg:my-0 my-5 shadow-xl cursor-pointer card">
       <div class="flex justify-between flex-wrap">
-        <p class="text-yellow-500 text-lg md:text-3xl">{{ data.name }}</p>
+        <p class="text-yellow-500 text-lg md:text-2xl">{{ data.name }}</p>
         <p class="text-sm mt-auto text-gray-500 ml-auto">{{ moment(data.pushed_at).format("MMM Do YYYY") }}</p>
       </div>
-      <div class="mt-6 h-28">
-        <p :style="{textIndent : '3rem'}" class="text-md md:text-lg text-justify line-clamp text-gray-600" v-if="data.id === 395348959">Github Read Me</p>
-        <p :style="{textIndent : '3rem'}" class="text-md md:text-lg text-justify line-clamp text-gray-600">{{ data.description === null ? "Nothing to display" : data.description }}</p>
+      <div class="mt-6 h-24">
+        <p :style="{textIndent : '3rem'}" class="text-md md:text-base text-justify line-clamp text-gray-600" v-if="data.id === 395348959">Github Read Me</p>
+        <p :style="{textIndent : '3rem'}" class="text-md md:text-base text-justify line-clamp text-gray-600">{{ data.description === null ? "Nothing to display" : data.description }}</p>
       </div>
       <div class="text-gray-800 flex flex-wrap justify-between">
         <p class="mt-auto">
